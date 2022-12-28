@@ -19,12 +19,12 @@
             <pre>Content goes here...</pre>
 ### The HTML Style Attribute
             <tagname style="property:value;">
-### 
-            
-### 
-            
-### 
-            
+###### Background Color
+            <body style="background-color:powderblue;">
+###### Text Color 
+            <h1 style="color:blue;">This is a heading</h1>
+###### Fonts
+            <h1 style="font-family:verdana;">This is a heading</h1>
 ### 
             
 ###
