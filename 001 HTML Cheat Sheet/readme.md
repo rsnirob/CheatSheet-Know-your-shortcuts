@@ -1,5 +1,6 @@
 ### The <!DOCTYPE> Declaration
             <!DOCTYPE html>
+            
 ### HTML Headings
             <h1>Page title</h1>
             <h2>Subheading</h2>
