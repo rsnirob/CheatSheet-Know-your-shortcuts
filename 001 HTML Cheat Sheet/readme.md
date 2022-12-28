@@ -25,8 +25,8 @@
             <h1 style="color:blue;">This is a heading</h1>
 ###### Fonts
             <h1 style="font-family:verdana;">This is a heading</h1>
-### 
-            
+###### Text Size
+            <h1 style="font-size:300%;">This is a heading</h1>
 ###
             
 ### 
