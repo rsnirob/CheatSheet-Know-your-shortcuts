@@ -76,9 +76,7 @@
 ### Inline CSS
             <h1 style="color:blue;">A Blue Heading</h1>
 ### CSS Border
-            p {
-            border: 2px solid powderblue;
-            }
+        border: 2px solid powderblue
 ### 
             
 ### 
