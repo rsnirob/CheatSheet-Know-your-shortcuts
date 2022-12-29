@@ -44,9 +44,9 @@
 ### HTML `<blockquote>` for Quotations
             <p>Here is a quote from WWF's website:</p>
             <blockquote cite="http://www.worldwildlife.org/who/index.html">
-                        For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100
-                        countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities,
-                        wildlife, and the places in which they live.
+                    For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100
+                    countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities,
+                    wildlife, and the places in which they live.
             </blockquote>
 ### HTML `<q>` for Short Quotations
             <p>Browsers usually insert quotation marks around the q element.</p>
@@ -56,11 +56,11 @@
             <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
 ### HTML `<address>` for Contact Information
             <address>
-                        Written by John Doe.<br>
-                        Visit us at:<br>
-                        Example.com<br>
-                        Box 564, Disneyland<br>
-                        USA
+                    Written by John Doe.<br>
+                    Visit us at:<br>
+                    Example.com<br>
+                    Box 564, Disneyland<br>
+                    USA
             </address>
 ### HTML `<cite>` for Work Title
             p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
@@ -75,9 +75,59 @@
             -->
 ### Inline CSS
             <h1 style="color:blue;">A Blue Heading</h1>
-### CSS Border
-        border: 2px solid powderblue
+###### CSS Border
+            p {
+                    border: 2px solid black;
+            }
+###### CSS Padding
+            padding: 30px;            
+###### CSS Margin
+            margin: 50px;            
+###### Link to External CSS
+            <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+            <link rel="stylesheet" href="/html/styles.css">
+            <link rel="stylesheet" href="styles.css">
+###
+        
 ### 
-            
+        
 ### 
-            
+        
+### 
+        
+### 
+        
+### 
+        
+### 
+        
+### 
+        
+### 
+        
+###
+        
+### 
+        
+### 
+        
+### 
+        
+### 
+        
+### 
+        
+### 
+        
+### 
+        
+### 
+        
+###
+        
+### 
+        
+### 
+        
+### 
+        
