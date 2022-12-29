@@ -91,13 +91,7 @@
             <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> 
             <p><a href="https://htmlg.com/" target="_blank" rel="nofollow">Click here</a></p>
             <p><a href="mailto:me@ruwix.com?Subject=Hi%20mate" target="_top">Send Mail</a></p>
-            
-            
-            By default, links will appear as follows in all browsers:
-                    An unvisited link is underlined and blue
-                    A visited link is underlined and purple
-                    An active link is underlined and red
-                        
+                 
 ###### HTML Links - The target Attribute
             _self - Default. Opens the document in the same window/tab as it was clicked
             _blank - Opens the document in a new window or tab
@@ -113,8 +107,41 @@
             <button onclick="document.location='default.asp'">HTML Tutorial</button>
 ###### Link Titles  
             <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
-### 
+### HTML Link Colors
+            By default, links will appear as follows in all browsers:
+                    An unvisited link is underlined and blue
+                    A visited link is underlined and purple
+                    An active link is underlined and red
+
+Example
+Here, an unvisited link will be green with no underline. A visited link will be pink with no underline. An active link will be yellow and underlined. In addition, when mousing over a link (a:hover) it will become red and underlined:
         
+            <style>
+                    a:link {
+                        color: green;
+                        background-color: transparent;
+                        text-decoration: none;
+                    }
+
+                    a:visited {
+                         color: pink;
+                         background-color: transparent;
+                         text-decoration: none;
+                    }
+
+                    a:hover {
+                        color: red;
+                        background-color: transparent;
+                        text-decoration: underline;
+                    }
+
+                    a:active {
+                        color: yellow;
+                        background-color: transparent;
+                        text-decoration: underline;
+                    }
+            </style>
+
 ### 
         
 ### 
