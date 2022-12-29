@@ -142,22 +142,38 @@ Here, an unvisited link will be green with no underline. A visited link will be 
                     }
             </style>
 
-### 
+### HTML Links - Create Bookmarks
+            <a href="#C4">Jump to Chapter 4</a>
+            <h2 id="C4">Chapter 4</h2>
+### HTML Images
+            <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+            <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"> 
+###### Image Size - Width and Height
+            <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+            <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+###### Images on Another Server/Website
+            <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+###### Animated Images 
+            <img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+###### Image as a Link
+            <a href="default.asp">
+                    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+            </a>
+###### Image Floating
+            <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">The image will float to the right of the text.</p>
+            <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">The image will float to the left of the text.</p> 
         
-### 
-        
-### 
-        
-###
-        
-### 
-        
-### 
-        
-### 
-        
-### 
-        
+###### HTML Image Maps
+            <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+            
+            <map name="workmap">
+                    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+            </map>
+
+            rect - defines a rectangular region
+            circle - defines a circular region
+            poly - defines a polygonal region
+            default - defines the entire regio
 ### 
         
 ### 
