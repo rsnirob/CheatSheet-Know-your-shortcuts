@@ -28,10 +28,19 @@
             <h1 style="font-family:verdana;">This is a heading</h1>
 ###### Text Size
             <h1 style="font-size:300%;">This is a heading</h1>
-###
-            
-### 
-            
+###### Text Alignment
+            <h1 style="text-align:center;">Centered Heading</h1>
+### HTML Formatting Elements
+            <b> - Bold text
+            <strong> - Important text
+            <i> - Italic text
+            <em> - Emphasized text
+            <mark> - Marked text
+            <small> - Smaller text
+            <del> - Deleted text
+            <ins> - Inserted text
+            <sub> - Subscript text
+            <sup> - Superscript text
 ### 
             
 ### 
