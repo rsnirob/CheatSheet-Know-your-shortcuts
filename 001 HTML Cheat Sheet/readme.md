@@ -87,12 +87,28 @@
             <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
             <link rel="stylesheet" href="/html/styles.css">
             <link rel="stylesheet" href="styles.css">
-###
-        
-### 
-        
-### 
-        
+### HTML Links
+            <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> 
+            <p><a href="https://htmlg.com/" target="_blank" rel="nofollow">Click here</a></p>
+            <p><a href="mailto:me@ruwix.com?Subject=Hi%20mate" target="_top">Send Mail</a></p>
+            
+            
+            By default, links will appear as follows in all browsers:
+                    An unvisited link is underlined and blue
+                    A visited link is underlined and purple
+                    An active link is underlined and red
+                        
+###### HTML Links - The target Attribute
+            _self - Default. Opens the document in the same window/tab as it was clicked
+            _blank - Opens the document in a new window or tab
+            _parent - Opens the document in the parent frame
+            _top - Opens the document in the full body of the window
+###### HTML Links - Use an Image as a Link
+            <a href="default.asp">
+                    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+            </a>
+###### Link to an Email Address 
+            <a href="mailto:someone@example.com">Send email</a>
 ### 
         
 ### 
