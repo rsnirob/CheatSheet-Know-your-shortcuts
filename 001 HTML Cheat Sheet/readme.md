@@ -109,10 +109,10 @@
             </a>
 ###### Link to an Email Address 
             <a href="mailto:someone@example.com">Send email</a>
-### 
-        
-### 
-        
+###### Button as a Link
+            <button onclick="document.location='default.asp'">HTML Tutorial</button>
+###### Link Titles  
+            <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
 ### 
         
 ### 
