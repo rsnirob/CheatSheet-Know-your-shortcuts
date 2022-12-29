@@ -62,16 +62,23 @@
                         Box 564, Disneyland<br>
                         USA
             </address>
-### 
+### HTML `<cite>` for Work Title
+            p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+### HTML `<bdo>` for Bi-Directional Override
+            <bdo dir="rtl">This text will be written from right to left</bdo>
+### HTML Comments
+            <!-- Write your comments here -->
             
-### 
-            
-### 
-            
-###
-        
-### 
-            
+            <!--
+            <p>Look at this cool image:</p>
+            <img border="0" src="pic_trulli.jpg" alt="Trulli">
+            -->
+### Inline CSS
+            <h1 style="color:blue;">A Blue Heading</h1>
+### CSS Border
+            p {
+                        border: 2px solid powderblue;
+            }
 ### 
             
 ### 
