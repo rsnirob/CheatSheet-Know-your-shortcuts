@@ -172,16 +172,28 @@ Here, an unvisited link will be green with no underline. A visited link will be 
             circle - defines a circular region
             poly - defines a polygonal region
             default - defines the entire regio
-### 
-        
-### 
-        
-### 
-        
-### 
-        
-###
-        
+###### Background Image on a HTML element
+            <p style="background-image: url('img_girl.jpg');">        
+###### Background Image on a Page
+            body {
+                    background-image: url('img_girl.jpg');
+                    background-repeat: no-repeat;
+            } 
+###### Background Cover
+            body {
+                    background-image: url('img_girl.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+            }
+###### Background Stretch
+            background-size: 100% 100%;
+### HTML Tables
+###### Collapsed Table Borders
+            table, th, td {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+            }
 ### 
         
 ### 
