@@ -311,8 +311,18 @@ Here, an unvisited link will be green with no underline. A visited link will be 
                     <li>Tea</li>
                     <li>Milk</li>
             </ol>
-###
-###
+### Block-level Elements
+            <address>   <article>   <aside>     <blockquote>            <canvas>    <dd>        <div>
+            <dl>        <dt>        <fieldset>  <figcaption>            <figure>    <footer>    <form>
+            <h1>-<h6>   <header>    <hr>        <li>                    <main>      <nav>       <noscript>
+            <ol>        <p>         <pre>       <section>               <table>     <tfoot>     <ul>
+            <video>
+### Inline Elements
+            <a>         <abbr>      <acronym>   <b>         <bdo>       <big>       <br>
+            <button>    <cite>      <code>      <dfn>       <em>        <i>         <img>
+            <input>     <kbd>       <label>     <map>       <object>    <output>    <q>
+            <samp>      <script>    <select>    <small>     <span>      <strong>    <sub>
+            <sup>       <textarea>  <time>      <tt>        <var>
 ###
 ###
 ###
