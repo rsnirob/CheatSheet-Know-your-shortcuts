@@ -323,12 +323,26 @@ Here, an unvisited link will be green with no underline. A visited link will be 
             <input>     <kbd>       <label>     <map>       <object>    <output>    <q>
             <samp>      <script>    <select>    <small>     <span>      <strong>    <sub>
             <sup>       <textarea>  <time>      <tt>        <var>
-###
-###
-###
-###
-###
-###
+### HTML class Attribute
+            .city {
+            }
+            <h2 class="city">London</h2>
+### HTML id Attribute
+            #myHeader {
+            }
+            <h1 id="myHeader">My Header</h1>
+### HTML Iframe Syntax
+            <iframe src="url" title="description"></iframe>
+######Iframe - Set Height and Width
+            <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+            <iframe src="demo_iframe.htm" style="height:200px;width:300px;" title="Iframe Example"></iframe>
+###### Iframe - Remove the Border
+            <iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+###### Iframe - Target for a Link
+            <iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+            
+            <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+### HTML - The Head Element
 ###
 ###
 ###
