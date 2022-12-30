@@ -194,9 +194,36 @@ Here, an unvisited link will be green with no underline. A visited link will be 
                     border: 1px solid black;
                     border-collapse: collapse;
             }
-### 
-        
-### 
-        
-### 
-        
+###### Style Table Borders
+            table, th, td {
+                      border: 1px solid white;
+                      border-collapse: collapse;
+            }
+            th, td {
+                      background-color: #96D4D4;
+            }
+
+###### Round Table Borders
+            table, th, td {
+                      border: 1px solid black;
+                      border-radius: 10px;
+            }
+            The following values are allowed:
+                      dotted
+                      dashed
+                      solid
+                      double     
+                      groove
+                      ridge
+                      inset
+                      outset
+                      none
+                      hidden  
+###### Dotted Table Borders
+            th, td {
+                        border-style: dotted;
+            }
+###### Border Color
+            th, td {
+                        border-color: #96D4D4;
+            }
