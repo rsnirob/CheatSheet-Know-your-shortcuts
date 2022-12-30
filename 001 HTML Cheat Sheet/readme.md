@@ -227,3 +227,63 @@ Here, an unvisited link will be green with no underline. A visited link will be 
             th, td {
                     border-color: #96D4D4;
             }
+###### HTML Table - Cell Padding
+            th, td {
+                    padding: 15px;
+            }
+###### HTML Table - Cell Spacing
+            th, td {
+                    border-spacing: 30px;
+            }
+###### HTML Table - Zebra Stripes
+            tr:nth-child(even) {
+                    background-color: #D6EEEE;
+            }
+###### HTML Table - Vertical Zebra Stripes
+            th:nth-child(even),td:nth-child(even) {
+                    background-color: #D6EEEE;
+            }
+###### Combine Vertical and Horizontal Zebra Stripes
+            tr:nth-child(even) {
+                    background-color: rgba(150, 212, 212, 0.4);
+            }
+            th:nth-child(even),td:nth-child(even) {
+                    background-color: rgba(150, 212, 212, 0.4);
+            }
+###### Horizontal Dividers
+            tr {
+                    border-bottom: 1px solid #ddd;
+            }
+###### Hoverable Table
+            tr:hover {
+                    background-color: #D6EEEE;
+            }
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+###
+######
+######
+######
+######
+######
