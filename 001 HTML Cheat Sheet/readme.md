@@ -373,9 +373,12 @@ Here, an unvisited link will be green with no underline. A visited link will be 
             <footer>    -           Defines a footer for a document or a section
             <details>   -           Defines additional details that the user can open and close on demand
             <summary>   -           Defines a heading for the <details> element
-###
-###
-###
+### 
+### 
+### 
+### 
+### 
+### 
 ######
 ######
 ######
