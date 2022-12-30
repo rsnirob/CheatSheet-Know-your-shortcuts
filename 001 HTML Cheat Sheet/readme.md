@@ -343,11 +343,36 @@ Here, an unvisited link will be green with no underline. A visited link will be 
             
             <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
 ### HTML - The Head Element
-###
-###
-###
-###
-###
+###### The HTML `<style>` Element
+            <style>
+                    body {background-color: powderblue;}
+                    h1 {color: red;}
+                    p {color: blue;}
+            </style>
+###### The HTML `<link>` Element
+            <link rel="stylesheet" href="mystyle.css">
+###### The HTML `<meta>` Element
+            <meta charset="UTF-8">
+            <meta name="keywords" content="HTML, CSS, JavaScript">
+            <meta name="description" content="Free Web tutorials">
+            <meta name="author" content="John Doe">
+            <meta http-equiv="refresh" content="30">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+###### The HTML `<script>` Element
+            <script>
+                    function myFunction() {
+                        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+                    }
+            </script>
+### HTML Layout Elements
+            <header>    -           Defines a header for a document or a section
+            <nav>       -           Defines a set of navigation links
+            <section>   -           Defines a section in a document
+            <article>   -           Defines an independent, self-contained content
+            <aside>     -           Defines content aside from the content (like a sidebar)
+            <footer>    -           Defines a footer for a document or a section
+            <details>   -           Defines additional details that the user can open and close on demand
+            <summary>   -           Defines a heading for the <details> element
 ###
 ###
 ###
