@@ -258,14 +258,59 @@ Here, an unvisited link will be green with no underline. A visited link will be 
             tr:hover {
                     background-color: #D6EEEE;
             }
-###
-###
-###
-###
-###
-###
-###
-###
+### HTML Lists
+###### Unordered HTML List
+            <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+            </ul>
+###### Ordered HTML List
+            <Ol>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+            </Ol>
+###### HTML Description Lists
+            <dl>
+                    <dt>Coffee</dt>
+                        <dd>- black hot drink</dd>
+                    <dt>Milk</dt>
+                        <dd>- white cold drink</dd>
+            </dl>
+###### Unordered HTML List - Choose List Item Marker
+            <ul style="list-style-type:disc;">
+            
+            Value	Description
+            disc	Sets the list item marker to a bullet (default)
+            circle	Sets the list item marker to a circle
+            square	Sets the list item marker to a square
+            none	The list items will not be marked
+
+###### Nested HTML Lists
+            <ul>
+                    <li>Coffee</li>
+                    <li>Tea
+                        <ul>
+                                <li>Black tea</li>
+                                <li>Green tea</li>
+                        </ul>
+                    </li>
+                    <li>Milk</li>
+            </ul>
+###### Ordered HTML List - The Type Attribute
+            Type	Description
+            type="1"	The list items will be numbered with numbers (default)
+            type="A"	The list items will be numbered with uppercase letters
+            type="a"	The list items will be numbered with lowercase letters
+            type="I"	The list items will be numbered with uppercase roman numbers
+            type="i"	The list items will be numbered with lowercase roman numbers
+###### Control List Counting
+            <ol start="50">
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+            </ol>
 ###
 ###
 ###
