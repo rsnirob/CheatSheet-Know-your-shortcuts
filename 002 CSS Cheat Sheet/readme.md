@@ -80,6 +80,35 @@
                     background-image: url("gradient_bg.png");
                     background-repeat: repeat-x;
             }
+###### CSS background-repeat: no-repeat
+            body {
+                    background-image: url("img_tree.png");
+                    background-repeat: no-repeat;
+            }
+###### CSS background-position
+            body {
+                    background-image: url("img_tree.png");
+                    background-repeat: no-repeat;
+                    background-position: right top;
+            }
+###### CSS background-attachment
+Specify that the background image should be fixed:
+
+            body {
+                    background-image: url("img_tree.png");
+                    background-repeat: no-repeat;
+                    background-position: right top;
+                    background-attachment: fixed;
+            }
+
+Specify that the background image should scroll with the rest of the page:
+
+            body {
+                    background-image: url("img_tree.png");
+                    background-repeat: no-repeat;
+                    background-position: right top;
+                    background-attachment: scroll;
+            }
 ### 
 ### 
 ### 
@@ -145,3 +174,66 @@
 ### 
 ### 
 ### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+
