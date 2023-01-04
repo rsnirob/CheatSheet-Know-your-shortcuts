@@ -142,9 +142,18 @@ The border-color property can have from one to four values (for the top border, 
 ###### CSS Rounded Borders
 The border-radius property is used to add rounded borders to an element:
 
-### 
-### 
-### 
+### CSS Outline
+CSS has the following outline properties:
+
+            outline-style
+            outline-color
+            outline-width
+            outline-offset
+            outline
+### CSS Text
+######Text Color
+The color property is used to set the color of the text. The color is specified by:
+###### Text Color and Background Color
 ### 
 ### 
 ### 
