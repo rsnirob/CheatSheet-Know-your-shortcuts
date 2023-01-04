@@ -109,10 +109,39 @@ Specify that the background image should scroll with the rest of the page:
                     background-position: right top;
                     background-attachment: scroll;
             }
-### 
-### 
-### 
-### 
+When using the shorthand property the order of the property values is:
+
+            background-color
+            background-image
+            background-repeat
+            background-attachment
+            background-position
+### CSS Border Style
+The `border-style` property specifies what kind of border to display.
+
+The following values are allowed:
+
+            dotted - Defines a dotted border
+            dashed - Defines a dashed border
+            solid - Defines a solid border
+            double - Defines a double border
+            groove - Defines a 3D grooved border. The effect depends on the border-color value
+            ridge - Defines a 3D ridged border. The effect depends on the border-color value
+            inset - Defines a 3D inset border. The effect depends on the border-color value
+            outset - Defines a 3D outset border. The effect depends on the border-color value
+            none - Defines no border
+            hidden - Defines a hidden border
+
+###### Specific Side Widths
+The `border-width` property can have from one to four values (for the top border, right border, bottom border, and the left border):
+###### Specific Side Colors
+If `border-color` is not set, it inherits the color of the element.
+
+The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border).
+
+###### CSS Rounded Borders
+The border-radius property is used to add rounded borders to an element:
+
 ### 
 ### 
 ### 
