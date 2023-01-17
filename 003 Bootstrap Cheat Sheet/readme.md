@@ -20,3 +20,23 @@
 |   .container-xl  |        100%        |     100%     |      100%     |     100%     |      1140px     |      1320px      |
 |  .container-xxl  |        100%        |     100%     |      100%     |     100%     |       100%      |      1320px      |
 | .container-fluid |        100%        |     100%     |      100%     |     100%     |       100%      |       100%       |
+
+###### Default container
+
+
+    <div class="container">
+      <!-- Content here -->
+    </div>
+###### Responsive containers
+
+
+    <div class="container-sm">100% wide until small breakpoint</div>
+    <div class="container-md">100% wide until medium breakpoint</div>
+    <div class="container-lg">100% wide until large breakpoint</div>
+    <div class="container-xl">100% wide until extra large breakpoint</div>
+    <div class="container-xxl">100% wide until extra extra large breakpoint</div>
+###### Fluid containers
+
+    <div class="container-fluid">
+      ...
+    </div>
